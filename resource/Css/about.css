@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 1140px;
+   margin: 0 auto;
+  
+}
+section{
+    padding:45px 0;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529
+    
+    
+
+}
+div{
+    display: block;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.border{
+    border: 1px solid red;
+}
+.col50{
+    flex-basis: 49%;
+}
+.col33{
+    flex-basis: 32%;
+}
+.col25{
+    flex-basis: 25%;
+}
+
+
+/**first section**/
+
+header{
+    background-color:#FFFFFF;
+    background-size: cover;
+    background-position:top center ;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+header nav{
+    padding: 15px 0;
+}
+
+.menu{
+   color:silver;
+    list-style: none;
+    display: flex;
+   position: absolute;
+   right: 20%;
+    
+}
+
+.menu li{
+    margin: 0px 10px;
+    padding: 8px;
+    border-radius: 3px;
+    transition: .6;
+    
+}
+.menu li:hover{
+    color: black;
+}
+
+.hero-section{
+   padding: 20px 0;
+   
+  
+}
+
+.hero-section h2{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color:black;
+
+}
+
+.hero-section p{
+
+   
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    color:black;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.hero-box{
+    margin-top: 20px;
+}
+
+
+.hero-section .col50{
+        flex-basis:50%;
+    
+    
+}
+
+.col1{
+    text-align: left;
+}
+.img-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.hero-box img{
+    width: 450px;
+    margin: 0 auto;
+   
+}
+
+
+
+/** footer section **/
+
+.footer-section{
+    background-color:#EF4035;
+    text-align: center;
+    
+}
+.footer-section .container{
+    padding: 5px ;
+    margin-bottom: 25px;
+}
+
+
+
+.footer-section p{
+    margin: 0;
+    margin-bottom: 25px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    color:white;
+}

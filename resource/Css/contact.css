@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 1140px;
+   margin: 0 auto;
+   
+}
+section{
+    padding:45px 0;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529
+    
+    
+
+}
+div{
+    display: block;
+}
+
+.border{
+    border: 1px solid red;
+}
+.col50{
+    flex-basis: 49%;
+}
+.col33{
+    flex-basis: 32%;
+}
+.col25{
+    flex-basis: 25%;
+}
+
+
+/**first section**/
+
+header{
+    background-color:white;
+    background-size: cover;
+    background-position:top center ;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+header nav{
+    padding: 15px 0;
+}
+
+.menu{
+   color:silver;
+    list-style: none;
+    display: flex;
+   position: absolute;
+   right: 20%;
+    
+}
+
+.menu li{
+    margin: 0px 10px;
+    padding: 8px;
+    border-radius: 3px;
+    transition: .6;
+    
+}
+.menu li:hover{
+    color: black;
+}
+
+.hero-section{
+   padding: 20px 0;
+   background-color: #ee4a3f;
+   height: 400px;
+   
+  
+}
+
+.hero-section h2{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color:#fff;
+
+}
+
+.hero-section p{
+
+   
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    color:white;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.hero-box{
+    margin-top: 20px;
+}
+
+.con{
+    position: absolute;
+    right: 10%;
+    top:20%
+}
+/**second section**/
+
+.second-section{
+    padding: 20px 0;
+    background-color: #ee4a3f;
+    height: 400px;
+    
+   
+ }
+ 
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    
+}
+.col50{
+    flex-basis: 50% ;
+    
+}
+.second-section .col50 p{
+    color: #fff;
+    padding: 12px;
+}
+.Cinput{
+    width: 70%;
+    border: none;
+   background-color:#ff6258;
+    margin: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    
+
+}
+
+/**footer**/
+
+.footer-section{
+    background-color:#EF4035;
+    text-align: center;
+    
+}
+.footer-section .container{
+    padding: 14px ;
+}
+
+
+
+.footer-section p{
+    margin: 0;
+    margin-bottom: 25px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    color:white;
+}
+
+
+
+
+

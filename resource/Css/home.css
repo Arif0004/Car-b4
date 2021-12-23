@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 1140px;
+   margin: 0 auto;
+   
+}
+section{
+    padding:45px 0;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.border{
+    border: 1px solid red;
+}
+.col80{
+    flex-basis: 75%;
+}
+.col20{
+    flex-basis: 25%;
+}
+.col50{
+    flex-basis: 50%;
+}
+
+/**************/
+
+header{
+    background-image:url('../Images/hero.png') ;
+    background-size: cover;
+    background-position:top center ;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+header nav{
+    padding: 15px 0;
+}
+
+.menu{
+   
+    list-style: none;
+    display: flex;
+   position: absolute;
+   right: 20%;
+    
+}
+
+.menu li{
+    margin: 0px 10px;
+    padding: 8px;
+    border-radius: 3px;
+    transition: .6;
+    
+}
+.menu li:hover{
+    color: yellow;
+}
+
+.hero-section{
+    padding-top: 40px;
+    padding-top:80px;
+    padding-bottom: 60px
+   
+    
+}
+.hero-section .content{
+margin-top: 10px;
+
+padding-bottom: 110px;
+
+}
+
+.hero-section h1{
+    padding: 22px 37px;
+    margin: 10px 0;
+    margin-left: 17px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+    display: inline-block;
+    
+    background-color: rgba(52, 53, 51, 0.75);
+}
+
+.hero-section p{
+    padding: 15px ;
+    margin: 10px 0;
+    line-height: 1;
+    
+}
+
+.hero-btn{
+    text-decoration: none;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    padding: 20px 80px;
+    display: inline-block;
+    transition: .6s;
+    margin-left: 15px;
+  
+    border-radius: 3px;
+    
+    
+}
+
+/**second **/
+
+
+
+.second-section{
+    background-color:#F6F6F6;
+    text-align: center;
+}
+
+.second-section h2{
+    font-size: 22px;
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color:black;
+
+}
+
+.second-section p{
+    margin: 0;
+    margin-bottom: 25px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    color:black;
+}
+
+
+.second-box{
+    margin-top: 20px;
+}
+
+
+.second-section .col50{
+        flex-basis:50%;
+    
+    
+}
+
+.col1{
+    text-align: left;
+}
+.img-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.second-box img{
+    width: 450px;
+    margin: 0 auto;
+   
+}
+
+
+
+
+
+
+
+/**third **/
+
+
+
+.third-section{
+    background-color:#28282E;
+    text-align: center;
+    
+}
+
+
+.third-section h2{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color:white;
+
+}
+
+.third-section p{
+    margin: 0;
+    margin-bottom: 25px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    color:white;
+}
+
+
+.third-box{
+    margin-top: 20px;
+}
+
+
+.third-section .col50{
+        flex-basis:50%;
+    
+    
+}
+
+.col1{
+    text-align: left;
+}
+.img-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.third-box img{
+    width: 450px;
+    margin: 0 auto;
+   
+}
+
+
+
+.third-btn{
+    text-decoration: none;
+    margin-top: 25px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 4px;
+    
+}
+.third-section .content{
+    margin-top: 10px;
+    
+    padding-bottom: 110px;
+    
+    }
+
+.third-btn:hover{
+    background-color: transparent;
+   
+    border: 2px solid #4DB66A ;
+
+}
+  /** footer section **/
+
+  .footer-section{
+    background-color:#EF4035;
+    text-align: center;
+    
+}
+.footer-section .container{
+    padding: 14px ;
+}
+
+
+
+.footer-section p{
+    margin: 0;
+    margin-bottom: 25px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 400;
+    color:white;
+}
